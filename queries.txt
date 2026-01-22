@@ -11,7 +11,7 @@ CREATE TABLE students(
 INSERT INTO students (name,email,age,course)
 values
 ('Suhani Sahu','suhani.sahu@gmail,com',21,'Computer Science'),
-('Jyotia Mehta','jyotia.mehta@gmail.com',23,'Information Technology'),
+('Jyoti Mehta','jyoti.mehta@gmail.com',23,'Information Technology'),
 ('Satyajit Gupta','satyajit.gupta@gmail.com',19,'Computer Science'),
 ('Sumit Verma','sumit.verma@gmail.com',24,'Information Technology'),
 ('Vikram Roa','vikram.verma@gmail.com',19,'Computer Science'),
@@ -19,7 +19,7 @@ values
 ('Simran Sharma','simran.gupta@gmail.com',22,'Electronics'),
 ('Karan Gupta','karan.gupta@gmail.com',24,'Mechanics'),
 ('Neha Sharma','neha.sharma@gmail.com',25,'Mechanics'),
-('Khusi Sharma','khusi.sharma@gmail.com',22,'Computer Science');
+('Khushi Sharma','khushi.sharma@gmail.com',22,'Computer Science');
 
 SELECT * FROM  students
 WHERE age>20;
@@ -44,14 +44,13 @@ WHERE id =7;
 
 DELETE FROM students
 WHERE age < 20;
-
-| id | name           | email                    | age | course           | created_at                 |
-| -- | -------------- | ------------------------ | --- | ---------------- | -------------------------- |
-| 1  | Suhani Sahu    | suhani.sahu@gmail,com    | 21  | Computer Science | 2026-01-22 08:48:10.148433 |
-| 8  | Karan Gupta    | karan.gupta@gmail.com    | 24  | Mechanics        | 2026-01-22 08:48:10.148433 |
-| 9  | Neha Sharma    | neha.sharma@gmail.com    | 25  | Mechanics        | 2026-01-22 08:48:10.148433 |
-| 10 | Khusi Sharma   | khusi.sharma@gmail.com   | 22  | Computer Science | 2026-01-22 08:48:10.148433 |
-| 3  | Satyajit Gupta | satyajit.gupta@gmail.com | 20  | Computer Science | 2026-01-22 08:48:10.148433 |
-| 2  | Jyotia Mehta   | jyotia.mehta@gmail.com   | 23  | Data Science     | 2026-01-22 08:48:10.148433 |
-| 4  | Sumit Verma    | sumit.verma@gmail.com    | 24  | Data Science     | 2026-01-22 08:48:10.148433 |
-| 6  | Ananya Gupta   | ananya.gupta@gmail.com   | 23  | Data Science     | 2026-01-22 08:48:10.148433 |
+| id | name            | email                    | age | course           | created_at                 |
+| -- | --------------  | ------------------------ | --- | ---------------- | -------------------------- |
+| 1  | Suhani Sahu     | suhani.sahu@gmail,com    | 21  | Computer Science | 2026-01-22 08:48:10.148433 |
+| 8  | Karan Gupta     | karan.gupta@gmail.com    | 24  | Mechanics        | 2026-01-22 08:48:10.148433 |
+| 9  | Neha Sharma     | neha.sharma@gmail.com    | 25  | Mechanics        | 2026-01-22 08:48:10.148433 |
+| 10 | Khushi Sharma   | khusi.sharma@gmail.com   | 22  | Computer Science | 2026-01-22 08:48:10.148433 |
+| 3  | Satyajit Gupta  | satyajit.gupta@gmail.com | 20  | Computer Science | 2026-01-22 08:48:10.148433 |
+| 2  | Jyoti Mehta     | jyoti.mehta@gmail.com    | 23  | Data Science     | 2026-01-22 08:48:10.148433 |
+| 4  | Sumit Verma     | sumit.verma@gmail.com    | 24  | Data Science     | 2026-01-22 08:48:10.148433 |
+| 6  | Ananya Gupta    | ananya.gupta@gmail.com   | 23  | Data Science     | 2026-01-22 08:48:10.148433 |
