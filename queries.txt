@@ -1,0 +1,57 @@
+CREATE TABLE students(
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL ,
+  email TEXT UNIQUE NOT NULL,
+  age INTEGER,
+  course TEXT,
+  created_at TIMESTAMP DEFAULT NOW()
+);
+
+
+INSERT INTO students (name,email,age,course)
+values
+('Suhani Sahu','suhani.sahu@gmail,com',21,'Computer Science'),
+('Jyotia Mehta','jyotia.mehta@gmail.com',23,'Information Technology'),
+('Satyajit Gupta','satyajit.gupta@gmail.com',19,'Computer Science'),
+('Sumit Verma','sumit.verma@gmail.com',24,'Information Technology'),
+('Vikram Roa','vikram.verma@gmail.com',19,'Computer Science'),
+('Ananya Gupta','ananya.gupta@gmail.com',23,'Information Technology'),
+('Simran Sharma','simran.gupta@gmail.com',22,'Electronics'),
+('Karan Gupta','karan.gupta@gmail.com',24,'Mechanics'),
+('Neha Sharma','neha.sharma@gmail.com',25,'Mechanics'),
+('Khusi Sharma','khusi.sharma@gmail.com',22,'Computer Science');
+
+SELECT * FROM  students
+WHERE age>20;
+
+
+SELECT name,email FROM students;
+
+SELECT * FROM Students 
+WHERE course = 'Computer Science';
+
+
+UPDATE Students 
+SET age =20
+WHERE id = 3;
+
+UPDATE students
+SET course ='Data Science'
+WHERE course ='Information Technology'
+
+DELETE FROM students
+WHERE id =7;
+
+DELETE FROM students
+WHERE age < 20;
+
+| id | name           | email                    | age | course           | created_at                 |
+| -- | -------------- | ------------------------ | --- | ---------------- | -------------------------- |
+| 1  | Suhani Sahu    | suhani.sahu@gmail,com    | 21  | Computer Science | 2026-01-22 08:48:10.148433 |
+| 8  | Karan Gupta    | karan.gupta@gmail.com    | 24  | Mechanics        | 2026-01-22 08:48:10.148433 |
+| 9  | Neha Sharma    | neha.sharma@gmail.com    | 25  | Mechanics        | 2026-01-22 08:48:10.148433 |
+| 10 | Khusi Sharma   | khusi.sharma@gmail.com   | 22  | Computer Science | 2026-01-22 08:48:10.148433 |
+| 3  | Satyajit Gupta | satyajit.gupta@gmail.com | 20  | Computer Science | 2026-01-22 08:48:10.148433 |
+| 2  | Jyotia Mehta   | jyotia.mehta@gmail.com   | 23  | Data Science     | 2026-01-22 08:48:10.148433 |
+| 4  | Sumit Verma    | sumit.verma@gmail.com    | 24  | Data Science     | 2026-01-22 08:48:10.148433 |
+| 6  | Ananya Gupta   | ananya.gupta@gmail.com   | 23  | Data Science     | 2026-01-22 08:48:10.148433 |
