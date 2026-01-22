@@ -49,7 +49,7 @@ WHERE age < 20;
 | 1  | Suhani Sahu     | suhani.sahu@gmail,com    | 21  | Computer Science | 2026-01-22 08:48:10.148433 |
 | 8  | Karan Gupta     | karan.gupta@gmail.com    | 24  | Mechanics        | 2026-01-22 08:48:10.148433 |
 | 9  | Neha Sharma     | neha.sharma@gmail.com    | 25  | Mechanics        | 2026-01-22 08:48:10.148433 |
-| 10 | Khushi Sharma   | khusi.sharma@gmail.com   | 22  | Computer Science | 2026-01-22 08:48:10.148433 |
+| 10 | Khushi Sharma   | khushi.sharma@gmail.com  | 22  | Computer Science | 2026-01-22 08:48:10.148433 |
 | 3  | Satyajit Gupta  | satyajit.gupta@gmail.com | 20  | Computer Science | 2026-01-22 08:48:10.148433 |
 | 2  | Jyoti Mehta     | jyoti.mehta@gmail.com    | 23  | Data Science     | 2026-01-22 08:48:10.148433 |
 | 4  | Sumit Verma     | sumit.verma@gmail.com    | 24  | Data Science     | 2026-01-22 08:48:10.148433 |
